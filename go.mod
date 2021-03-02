@@ -1,4 +1,4 @@
-module gorm.io/driver/sqlite
+module github.com/cloudquery/sqlite
 
 go 1.14
 
