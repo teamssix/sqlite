@@ -1,4 +1,4 @@
-module github.com/cloudquery/sqlite
+module github.com/ssbeatty/sqlite
 
 go 1.16
 

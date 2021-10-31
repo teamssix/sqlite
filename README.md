@@ -13,7 +13,7 @@ there might be missing features and stability issues. It should work for develop
 
 ```go
 import (
-  "gorm.io/cloudquery/sqlite"
+  "gorm.io/ssbeatty/sqlite"
   "gorm.io/gorm"
 )
 
