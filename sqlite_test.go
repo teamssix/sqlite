@@ -3,9 +3,9 @@ package sqlite
 import (
 	"database/sql"
 	"fmt"
+	"modernc.org/sqlite"
 	"testing"
 
-	"modernc.org/sqlite"
 	"gorm.io/gorm"
 )
 
@@ -19,7 +19,7 @@ func TestDialector(t *testing.T) {
 	// It will have one custom function called "my_custom_function".
 	sql.Register(CustomDriverName,
 		&sqlite.Driver{
-			//ConnectHook: func(conn *sqlite3.SQLiteConn) error {
+			//ConnectHook: func(conn *sqlite.SQLiteConn) error {
 			//	// Define the `concat` function, since we use this elsewhere.
 			//	err := conn.RegisterFunc(
 			//		"my_custom_function",
