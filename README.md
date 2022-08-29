@@ -1,5 +1,5 @@
 
-This is a fork of [github.com/go-gorm/sqlite](github.com/go-gorm/sqlite)
+Update modernc.org/sqlite to the latest
 
 That works with [modernc.org/sqlite](modernc.org/sqlite) which is a pure-go sqlite
 implementation. Obviously, because `modernc.org/sqlite` is a re-implementation of sqlite 
@@ -13,7 +13,7 @@ there might be missing features and stability issues. It should work for develop
 
 ```go
 import (
-  "gorm.io/ssbeatty/sqlite"
+  "github/teamssix/sqlite"
   "gorm.io/gorm"
 )
 
